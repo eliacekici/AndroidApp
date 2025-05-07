@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -21,7 +23,7 @@ public class MainActivityPage extends AppCompatActivity {
 
     private TextView dateTextView;
     private TextView welcomeTextView;
-    private Button academicCalendarButton;
+    private FrameLayout academicCalendarButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,8 +33,8 @@ public class MainActivityPage extends AppCompatActivity {
 
         dateTextView = findViewById(R.id.dateTextView);
         welcomeTextView = findViewById(R.id.welcomeTextView);
-        FrameLayout academicCalendarButton = findViewById(R.id.academicCalendarButton);
-
+        LinearLayout transportationButton = findViewById(R.id.transportationButton);
+        academicCalendarButton = findViewById(R.id.academicCalendarButton);
 
         String currentDate = DateFormat.getDateInstance(DateFormat.FULL, Locale.getDefault()).format(new Date());
         dateTextView.setText(currentDate);
@@ -55,5 +57,14 @@ public class MainActivityPage extends AppCompatActivity {
             }
         });
 
+        transportationButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivityPage.this, TransportationActivity.class);
+            startActivity(intent);
+
+        });
+
+
+
     }
+
 }

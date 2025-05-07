@@ -3,6 +3,7 @@ package com.example.myunyt;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.HorizontalScrollView;
+import android.widget.ImageButton;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -159,6 +160,9 @@ public class AcademicCalendarActivity extends AppCompatActivity {
 
             springCalendarTable.addView(row);
         }
+
+        ImageButton backButton = findViewById(R.id.backButton);
+        backButton.setOnClickListener(v -> finish());
 
     }
 

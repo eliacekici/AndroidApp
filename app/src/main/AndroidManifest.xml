@@ -15,7 +15,7 @@
         android:theme="@style/Theme.MyUNYT"
         tools:targetApi="31">
         <activity
-            android:name=".BaseActivity"
+            android:name=".TransportationActivity"
             android:exported="false" />
         <activity
             android:name=".AcademicCalendarActivity"
@@ -32,6 +32,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fullpage_gradient_background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/transportTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transportation Schedule"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow>
+                <TextView android:text="Entry Hours" android:textStyle="bold" android:textColor="@color/white"/>
+                <TextView android:text="Exit Hours" android:textStyle="bold" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="08:20" android:textColor="@color/white"/>
+                <TextView android:text="12:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="12:20" android:textColor="@color/white"/>
+                <TextView android:text="13:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="14:20" android:textColor="@color/white"/>
+                <TextView android:text="14:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="" android:textColor="@color/white"/>
+                <TextView android:text="17:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="" android:textColor="@color/white"/>
+                <TextView android:text="18:05" android:textColor="@color/white"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuesday"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow>
+                <TextView android:text="Entry Hours" android:textStyle="bold" android:textColor="@color/white"/>
+                <TextView android:text="Exit Hours" android:textStyle="bold" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="08:20" android:textColor="@color/white"/>
+                <TextView android:text="12:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="11:20" android:textColor="@color/white"/>
+                <TextView android:text="15:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="12:20" android:textColor="@color/white"/>
+                <TextView android:text="16:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="13:20" android:textColor="@color/white"/>
+                <TextView android:text="17:05" android:textColor="@color/white"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wednesday"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow>
+                <TextView android:text="Entry Hours" android:textStyle="bold" android:textColor="@color/white"/>
+                <TextView android:text="Exit Hours" android:textStyle="bold" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="08:20" android:textColor="@color/white"/>
+                <TextView android:text="11:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="12:20" android:textColor="@color/white"/>
+                <TextView android:text="12:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="13:20" android:textColor="@color/white"/>
+                <TextView android:text="13:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="" android:textColor="@color/white"/>
+                <TextView android:text="16:05" android:textColor="@color/white"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wednesday"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow>
+                <TextView android:text="Entry Hours" android:textStyle="bold" android:textColor="@color/white"/>
+                <TextView android:text="Exit Hours" android:textStyle="bold" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="08:20" android:textColor="@color/white"/>
+                <TextView android:text="12:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="12:20" android:textColor="@color/white"/>
+                <TextView android:text="13:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="" />
+                <TextView android:text="16:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="" />
+                <TextView android:text="17:05" android:textColor="@color/white"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friday"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow>
+                <TextView android:text="Entry Hours" android:textStyle="bold" android:textColor="@color/white"/>
+                <TextView android:text="Exit Hours" android:textStyle="bold" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="08:20" android:textColor="@color/white"/>
+                <TextView android:text="12:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="12:20" android:textColor="@color/white"/>
+                <TextView android:text="13:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="13:20" android:textColor="@color/white"/>
+                <TextView android:text="16:05" android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="" />
+                <TextView android:text="17:05" android:textColor="@color/white"/>
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_arrow_back"
+                android:contentDescription="Back button"
+                android:background="?attr/selectableItemBackgroundBorderless" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
