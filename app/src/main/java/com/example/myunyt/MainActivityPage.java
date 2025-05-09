@@ -63,8 +63,11 @@ public class MainActivityPage extends AppCompatActivity {
 
         });
 
-
-
+        FrameLayout voteButton = findViewById(R.id.voteButton);
+        voteButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivityPage.this, VoteActivity.class);
+            startActivity(intent);
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+        });
     }
-
 }
