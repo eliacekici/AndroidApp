@@ -1,21 +1,40 @@
 package com.example.myunyt;
 
 public class Professor {
-    private String id;
+    private int id;
     private String name;
-    private String course;
-    private int imageResId;
+    private String courses;
+    private String imageUrl;
+    private String faculty;
+    private float rating;
 
-    public Professor(String id, String name, String course, int imageResId) {
+    public Professor(int id, String name, String courses, String imageUrl, String faculty, float rating) {
         this.id = id;
         this.name = name;
-        this.course = course;
-        this.imageResId = imageResId;
+        this.courses = courses;
+        this.imageUrl = imageUrl != null ? imageUrl : "";
+        this.faculty = faculty;
+        this.rating = rating;
     }
 
-    // Getters
-    public String getId() { return id; }
-    public String getName() { return name; }
-    public String getCourse() { return course; }
-    public int getImageResId() { return imageResId; }
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getCourses() {
+        return courses;
+    }
+
+    public String getImageUrl() {
+        return imageUrl != null ? imageUrl : "";
+    }
+    public String getFaculty() { return faculty; }
+    public float getRating() { return rating; }
+    public void setRating(float rating) {
+        this.rating = rating;
+    }
 }

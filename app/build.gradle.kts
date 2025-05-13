@@ -47,4 +47,6 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
+    implementation("com.squareup.picasso:picasso:2.8")
+    implementation(libs.recyclerview)
 }
