@@ -8,7 +8,8 @@
         android:orientation="vertical"
         android:padding="16dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
 
         <TextView
             android:id="@+id/transportTitle"
@@ -34,7 +35,9 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:stretchColumns="*">
+            android:stretchColumns="*"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
 
             <TableRow>
                 <TextView android:text="Entry Hours" android:textStyle="bold" android:textColor="@color/white"/>
@@ -74,7 +77,9 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:stretchColumns="*">
+            android:stretchColumns="*"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
 
             <TableRow>
                 <TextView android:text="Entry Hours" android:textStyle="bold" android:textColor="@color/white"/>
@@ -110,7 +115,9 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:stretchColumns="*">
+            android:stretchColumns="*"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
 
             <TableRow>
                 <TextView android:text="Entry Hours" android:textStyle="bold" android:textColor="@color/white"/>
@@ -137,7 +144,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Wednesday"
+            android:text="Thursday"
             android:textStyle="bold"
             android:textSize="20sp"
             android:textColor="@color/white"
@@ -146,7 +153,9 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:stretchColumns="*">
+            android:stretchColumns="*"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
 
             <TableRow>
                 <TextView android:text="Entry Hours" android:textStyle="bold" android:textColor="@color/white"/>
@@ -182,7 +191,9 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:stretchColumns="*">
+            android:stretchColumns="*"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
 
             <TableRow>
                 <TextView android:text="Entry Hours" android:textStyle="bold" android:textColor="@color/white"/>

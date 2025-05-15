@@ -44,55 +44,67 @@
             android:layout_marginBottom="60dp"
             android:layout_marginTop="24dp"/>
 
-        <LinearLayout
-            android:id="@+id/facultyOptionsLayout"
+        <RadioGroup
+            android:id="@+id/facultyRadioGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp">
 
-            <TextView
-                android:id="@+id/facultyEconomy"
+            <RadioButton
+                android:id="@+id/radioEconomy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Faculty of Economy and Business"
                 android:textSize="16sp"
-                android:padding="8dp"
-                android:layout_marginBottom="40dp"
-                android:minHeight="48dp"
-                android:background="@drawable/clickable_text_background"
-                android:textColor="@android:color/white"
-                android:clickable="true"
-                android:focusable="true"/>
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:button="@drawable/radio_button_selector"
+                android:background="@drawable/clickable_text_background"/>
 
-            <TextView
-                android:id="@+id/facultyLaw"
+            <RadioButton
+                android:id="@+id/radioLaw"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Faculty of Law and Social Sciences"
                 android:textSize="16sp"
-                android:padding="8dp"
-                android:layout_marginBottom="40dp"
-                android:minHeight="48dp"
-                android:background="@drawable/clickable_text_background"
-                android:textColor="@android:color/white"
-                android:clickable="true"
-                android:focusable="true"/>
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:button="@drawable/radio_button_selector"
+                android:background="@drawable/clickable_text_background"/>
 
-
-            <TextView
-                android:id="@+id/facultyEngineering"
+            <RadioButton
+                android:id="@+id/radioEngineering"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Faculty of Engineering and Architecture"
                 android:textSize="16sp"
-                android:padding="8dp"
-                android:layout_marginBottom="40dp"
-                android:minHeight="48dp"
-                android:background="@drawable/clickable_text_background"
-                android:textColor="@android:color/white"
-                android:clickable="true"
-                android:focusable="true"/>
-        </LinearLayout>
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:button="@drawable/radio_button_selector"
+                android:background="@drawable/clickable_text_background"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/continueButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:background="@drawable/login_button_rounded"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
 
         <LinearLayout
             android:id="@+id/professorsContainer"

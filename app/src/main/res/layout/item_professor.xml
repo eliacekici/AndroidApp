@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="12dp">
+        android:padding="12dp"
+        android:background="@color/white_to_gray">
 
         <ImageView
             android:id="@+id/professorImage"
@@ -62,7 +63,7 @@
             android:text="Submit Rating"
             android:paddingStart="24dp"
             android:paddingEnd="24dp"
-            android:backgroundTint="#D77474"
+            android:background="@drawable/login_button_rounded"
             android:textColor="@android:color/white"/>
 
     </LinearLayout>
