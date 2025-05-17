@@ -37,7 +37,9 @@ public class MainActivityPage extends AppCompatActivity {
         FrameLayout voteButton = findViewById(R.id.voteButton);
         LinearLayout informationButton = findViewById(R.id.informationButton);
         LinearLayout locationButton = findViewById(R.id.locationButton);
+        LinearLayout instagramButton = findViewById(R.id.instagramButton);
         FrameLayout container = findViewById(R.id.fragment_container);
+        ScrollView scrollView = findViewById(R.id.mainScrollView);
 
         String currentDate = DateFormat.getDateInstance(DateFormat.FULL, Locale.getDefault()).format(new Date());
         dateTextView.setText(currentDate);
@@ -68,6 +70,9 @@ public class MainActivityPage extends AppCompatActivity {
             toggleFragment(new LocationFragment());
         });
 
+        instagramButton.setOnClickListener(v -> {
+            startActivity(new Intent(this, InstagramPostsActivity.class));
+        });
     }
 
     private void toggleFragment(Fragment fragment) {
