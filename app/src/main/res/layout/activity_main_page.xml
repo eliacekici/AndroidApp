@@ -198,7 +198,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:paddingHorizontal="16dp"
-                            android:text="Check your portal"
+                            android:text="Check the portal"
                             android:textColor="@android:color/white"
                             android:textSize="16sp" />
 
